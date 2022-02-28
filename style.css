@@ -1,0 +1,46 @@
+body {
+    background-color: burlywood;
+}
+    
+
+/* main title */
+    .title {
+        color: orangered;
+        text-align: center;
+    }
+
+/* about paragraph */
+    #aboutTitle {
+        margin-left: 20em;
+        text-align: center;
+        width: fit-content;
+        border-style: hidden hidden solid hidden;
+        border-bottom-width: 0.1875em;
+    }
+    .about {
+        margin-left: 35em;
+        width: 20em;
+        text-align: justify;
+    }
+
+/* side blocks */
+    #leftBlocs {
+        position: fixed;
+        left: 0em;
+        top: 0em;
+        background-color: darkgrey;
+        border-color: darkgrey grey darkgrey darkgrey;
+        border-style: solid;
+        width: 8em;
+        height: 100%;
+    }
+    #rightBlocs {
+        position: fixed;
+        right: 0em;
+        top: 0em;
+        background-color: darkgrey;
+        border-color: darkgrey darkgrey darkgrey grey;
+        border-style: solid;
+        width: 8em;
+        height: 100%;
+    }
