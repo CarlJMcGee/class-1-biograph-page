@@ -62,6 +62,10 @@ body {
         list-style-type: none;
         overflow: hidden;
     }
+    #coninfo {
+        text-decoration-line: underline;
+        margin-bottom: 0.25em;
+    }
     li {
         float: left;
         padding: 1em;
