@@ -11,14 +11,15 @@ body {
 
 /* about paragraph */
     #aboutTitle {
-        margin-left: 20em;
-        text-align: center;
+        margin-left: 4%;        
         width: fit-content;
         border-style: hidden hidden solid hidden;
         border-bottom-width: 0.1875em;
+        text-align: center;
     }
     .about {
-        margin-left: 35em;
+        position: relative;
+        left: 25%;
         width: 20em;
         text-align: justify;
     }
@@ -43,4 +44,25 @@ body {
         border-style: solid;
         width: 8em;
         height: 100%;
+    }
+
+/* picture */
+    #timPic {
+        position: relative;
+        left: 45%;
+        top: -27em;
+        margin-left: auto;
+        width: 30%;
+        height: 30%;
+    }
+
+/* contact info */
+    ul.contact {
+        margin-left: 9em;
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        padding: 1em;
     }
